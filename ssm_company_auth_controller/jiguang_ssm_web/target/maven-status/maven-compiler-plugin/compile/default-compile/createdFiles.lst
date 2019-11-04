@@ -1,0 +1,7 @@
+com\jiguang\ssm\controller\LogAop.class
+com\jiguang\ssm\controller\SysLogController.class
+com\jiguang\ssm\controller\PermissionController.class
+com\jiguang\ssm\controller\UserController.class
+com\jiguang\ssm\controller\OrderController.class
+com\jiguang\ssm\controller\ProductController.class
+com\jiguang\ssm\controller\RoleController.class

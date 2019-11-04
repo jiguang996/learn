@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1539f671-ff44-423a-bc2e-d51eee08f6f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jiguang_ssm_service/jiguang_ssm_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_service/src/main/java/com/jiguang/ssm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_service/src/main/java/com/jiguang/ssm/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_service/src/main/java/com/jiguang/ssm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_service/src/main/java/com/jiguang/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/java/com/jiguang/ssm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/java/com/jiguang/ssm/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar04.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar2.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar3.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/avatar5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/boxed-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/boxed-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/boxed-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/boxed-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/american-express.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/american-express.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/cirrus.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/cirrus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/mastercard.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/mastercard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/mestro.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/mestro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/paypal.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/paypal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/paypal2.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/paypal2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/visa.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/credit/visa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/default-50x50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/default-50x50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/photo4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user1-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user1-128x128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user2-160x160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user2-160x160.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user3-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user3-128x128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user4-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user4-128x128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user5-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user5-128x128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user6-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user6-128x128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user7-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user7-128x128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user8-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/assets/img/user8-128x128.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jiguang_ssm_web/src/main/webapp/login.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\Program Files\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1SCTHdEC4CyqtuM5mvHmnn421y5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ji\ideaProject\jiguang_ssm\jiguang_ssm_web\src\main" />
+      <recent name="C:\Users\ji\ideaProject\jiguang_ssm\jiguang_ssm_web\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ji\ideaProject\jiguang_ssm\jiguang_ssm_web\src\main\webapp" />
+      <recent name="C:\Users\ji\ideaProject\jiguang_ssm\jiguang_ssm_web\src\main\webapp\assets" />
+      <recent name="C:\Users\ji\ideaProject\jiguang_ssm\jiguang_ssm_web\src\main\java\com\jiguang\ssm\controller" />
+      <recent name="C:\Users\ji\ideaProject\jiguang_ssm\jiguang_ssm_web\src\main\resources" />
+      <recent name="C:\Users\ji\ideaProject\jiguang_ssm\jiguang_ssm_web\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiguang.ssm" />
+      <recent name="com.jiguang.ssm.controller" />
+      <recent name="com.jiguang.ssm.service.impl" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jiguang.ssm.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="jiguang_ssm_web [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/jiguang_ssm_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\ji\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\ji\ideaProject\jiguang_ssm" />
+          <option name="myCopyRoot" value="C:\Users\ji\ideaProject\jiguang_ssm" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\ji\ideaProject\jiguang_ssm" />
+          <option name="myCopyRoot" value="C:\Users\ji\ideaProject\jiguang_ssm" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1539f671-ff44-423a-bc2e-d51eee08f6f9" name="Default Changelist" comment="" />
+      <created>1571066490874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571066490874</updated>
+      <workItem from="1571066492752" duration="11231000" />
+      <workItem from="1571102906410" duration="18359000" />
+      <workItem from="1571140972716" duration="267000" />
+      <workItem from="1571143277678" duration="4062000" />
+      <workItem from="1571229345427" duration="2999000" />
+      <workItem from="1571237603474" duration="3941000" />
+      <workItem from="1571242292812" duration="68000" />
+      <workItem from="1571242942976" duration="26000" />
+      <workItem from="1571312920365" duration="1144000" />
+      <workItem from="1571314399053" duration="3715000" />
+      <workItem from="1571365318919" duration="30000" />
+      <workItem from="1571369300496" duration="623000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1571073571963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571073571963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第2次提交,正常运行">
+      <created>1571077484044</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571077484044</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第2次提交,正常运行基本功能">
+      <created>1571125398561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571125398561</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第3次提交,完成功能">
+      <created>1571147940868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571147940868</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="第2次提交,正常运行" />
+    <MESSAGE value="第2次提交,正常运行基本功能" />
+    <MESSAGE value="第3次提交,完成功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="第3次提交,完成功能" />
+  </component>
+</project>

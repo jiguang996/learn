@@ -1,0 +1,8 @@
+com\jiguang\ssm\dao\IOrderDao.class
+com\jiguang\ssm\dao\IRoleDao.class
+com\jiguang\ssm\dao\IUserInfoDao.class
+com\jiguang\ssm\dao\IProductDao.class
+com\jiguang\ssm\dao\ITravellerDao.class
+com\jiguang\ssm\dao\IPermissionDao.class
+com\jiguang\ssm\dao\IMemberDao.class
+com\jiguang\ssm\dao\ISysLogDao.class

@@ -1,0 +1,12 @@
+com\jiguang\ssm\service\impl\UserServiceImpl.class
+com\jiguang\ssm\service\impl\OrdersServiceImpl.class
+com\jiguang\ssm\service\impl\ProductServiceImpl.class
+com\jiguang\ssm\service\ISysLogService.class
+com\jiguang\ssm\service\IRoleService.class
+com\jiguang\ssm\service\IUserService.class
+com\jiguang\ssm\service\IOrdersService.class
+com\jiguang\ssm\service\impl\PermissionServiceImpl.class
+com\jiguang\ssm\service\impl\RoleServiceImpl.class
+com\jiguang\ssm\service\IPermissionService.class
+com\jiguang\ssm\service\impl\SysLogServiceImpl.class
+com\jiguang\ssm\service\IProductService.class

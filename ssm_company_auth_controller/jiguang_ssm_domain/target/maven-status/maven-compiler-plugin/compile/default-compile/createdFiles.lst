@@ -1,0 +1,8 @@
+com\jiguang\ssm\domain\Traveller.class
+com\jiguang\ssm\domain\Member.class
+com\jiguang\ssm\domain\Permission.class
+com\jiguang\ssm\domain\Product.class
+com\jiguang\ssm\domain\SysLog.class
+com\jiguang\ssm\domain\Orders.class
+com\jiguang\ssm\domain\Role.class
+com\jiguang\ssm\domain\UserInfo.class
