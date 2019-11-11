@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jiguang.myshop.web.admin.dao.TbUserDao">
+    <sql id="tbUserColumns">
+          a.id,
+          a.username,
+          a.password,
+          a.phone,
+          a.email,
+          a.created,
+          a.updated
+    </sql>
+
+    <select id="findAll" resultType="TbUser">
+        select
+        <include refid="tbUserColumns" />
+          from
+            tb_user as a
+    </select>
+
+    <insert id="save">
+        insert into tb_user(
+          username,
+          password,
+          phone,
+          email,
+          created,
+          updated
+        )
+        values (
+            #{username},
+            #{password},
+            #{phone},
+            #{email},
+            #{created},
+            #{updated}
+        )
+    </insert>
+
+    <delete id="delete">
+        delete from tb_user where  id=#{id}
+    </delete>
+
+    <select id="findById" resultType="TbUser">
+        select
+        <include refid="tbUserColumns" />
+        from
+        tb_user as a
+        where a.id=#{id}
+    </select>
+
+    <select id="findByEmail" resultType="TbUser">
+        select
+        <include refid="tbUserColumns" />
+        from
+            tb_user as a
+        where
+            a.email=#{email}
+    </select>
+
+    <update id="update">
+        UPDATE
+            tb_user
+         SET
+           username=#{username},
+           password=#{password},
+           phone=#{phone},
+           email=#{email},
+           created=#{created},
+           updated=#{updated}
+         where
+            id=#{id}
+    </update>
+
+
+
+    <delete id="deleteMulti">
+        DELETE  FROM  tb_user
+        where id in
+        <foreach collection="array" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="page" resultType="TbUser" parameterType="java.util.Map">
+        SELECT
+        <include refid="tbUserColumns" />
+        FROM tb_user AS a
+        <where>
+            <if test="tbUser.username!= null and tbUser.username!=''">
+                AND a.username LIKE CONCAT ('%',#{username},'%')
+            </if>
+            <if test="tbUser.phone!= null and tbUser.phone!=''">
+                AND a.phone LIKE CONCAT ('%',#{phone},'%')
+            </if>
+            <if test="tbUser.email!= null and tbUser.email!=''">
+                AND a.email LIKE CONCAT ('%',#{email},'%')
+            </if>
+        </where>
+        LIMIT  #{start}, #{length}
+    </select>
+
+    <select id="count" resultType="java.lang.Integer">
+        SELECT  COUNT(*) FROM  tb_user AS  a
+         <where>
+             <if test="username!= null and username!=''">
+                 AND a.username LIKE CONCAT ('%',#{username},'%')
+             </if>
+             <if test="phone!= null and phone!=''">
+                 AND a.phone LIKE CONCAT ('%',#{phone},'%')
+             </if>
+             <if test="tbUser.email!= null and tbUser.email!=''">
+                 AND a.email LIKE CONCAT ('%',#{email},'%')
+             </if>
+         </where>
+    </select>
+</mapper>

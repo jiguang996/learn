@@ -1,0 +1,3 @@
+com\jiguang\myshop\web\admin\service\TbContentCategoryService.class
+com\jiguang\myshop\web\admin\abstracts\AbstractController.class
+com\jiguang\myshop\web\admin\web\interceptor\LoginInterceptor.class

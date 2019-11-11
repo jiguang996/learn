@@ -1,0 +1,15 @@
+com\jiguang\myshop\commons\dto\PageInfo.class
+com\jiguang\myshop\commons\utils\MapperUtils$1.class
+com\jiguang\myshop\commons\persistence\BaseTreeDao.class
+com\jiguang\myshop\commons\validator\BeanValidator.class
+com\jiguang\myshop\commons\dto\BaseResult.class
+com\jiguang\myshop\commons\utils\EmailSendUtils.class
+com\jiguang\myshop\commons\persistence\BaseService.class
+com\jiguang\myshop\commons\utils\MapperUtils.class
+com\jiguang\myshop\commons\persistence\BaseTreeEntity.class
+com\jiguang\myshop\commons\persistence\BaseTreeService.class
+com\jiguang\myshop\commons\persistence\BaseDao.class
+com\jiguang\myshop\commons\utils\HttpClientUtils.class
+com\jiguang\myshop\commons\utils\RegexpUtils.class
+com\jiguang\myshop\commons\persistence\BaseEntity.class
+com\jiguang\myshop\commons\constant\ConstantUtils.class

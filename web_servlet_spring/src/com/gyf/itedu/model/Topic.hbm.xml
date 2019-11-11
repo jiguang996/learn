@@ -1,0 +1,32 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gyf.itedu.model">
+	<class name="Topic" table="t_topic">
+
+		<id name="tid" column="id">
+			<generator class="native"></generator>
+		</id>
+		<!--private String title;			//标题-->
+		<property name="title" type="string"></property>
+
+		<!--private String topicContent;	//内容-->
+		<property name="topicContent" type="string"></property>
+
+		<!--private String ipAddr;			//ip地址（作者）-->
+		<property name="ipAddr" type="string"></property>
+
+		<!--private Date lastReplyDate;		//最后回复时间-->
+		<property name="lastReplyDate"></property>
+
+		<!--private Date createDate;		//发帖时间（创建时间）-->
+		<property name="createDate"></property>
+
+		<!-- 一对多 关系 -->
+		<set name="replySet">
+			<key column="topic_id"></key>
+			<one-to-many class="Reply"></one-to-many>
+		</set>
+
+	</class>
+</hibernate-mapping>

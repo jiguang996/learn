@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p ="http://www.springframework.org/schema/p"
+       xmlns:context ="http://www.springframework.org/schema/context"
+       xmlns:aop ="http://www.springframework.org/schema/aop"
+       xmlns:tx ="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <!--数据源 datasource-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///itedu"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+
+    <!-- 创建sessionFactory-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <!-- 1.datasource-->
+        <property name="dataSource" ref="dataSource"></property>
+
+        <!--2.hiberante其它配置-->
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+            </props>
+        </property>
+
+        <!--3.hiberante的映射文件路径-->
+        <property name="mappingLocations" value="classpath:com/gyf/itedu/model/*.hbm.xml"/>
+    </bean>
+
+    <!-- 创建Hibernate的模版-->
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <!-- ============================创建dao========================== -->
+    <bean id="userDao"  class="com.gyf.itedu.dao.impl.UserDaoImpl">
+        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+    </bean>
+
+    <bean id="topicDao" class="com.gyf.itedu.dao.impl.TopicDaoImpl">
+        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+    </bean>
+
+    <!-- ===========================创建service=============================-->
+    <bean id="userService" class="com.gyf.itedu.service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+
+    <bean id="topicService" class="com.gyf.itedu.service.impl.TopicServiceImpl">
+        <property name="topicDao" ref="topicDao"></property>
+    </bean>
+
+    <!--配置事务-->
+    <!-- 1.事务管理器-->
+    <bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <!--2.配置通知-->
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <tx:method name="register"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--3.把通知应用到切入点-->
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.gyf.itedu.service..*.*(..))"></aop:advisor>
+    </aop:config>
+
+   <!-- <bean class="com.gyf.itedu.web.action.UserAction">
+        <property name="userService" ref="userService"></property>
+    </bean>-->
+</beans>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/my-shop-web-admin/src/test/java/com/funtl/my/shop/web/admin/service/test/TbUserServiceTest.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-shop-domain" />
+        <module name="my-shop-web-admin" />
+        <module name="my-shop-commons" />
+        <module name="my-shop-web-api" />
+        <module name="my-shop-web-ui" />
+        <module name="my-shop-external" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myshop-commons" target="1.8" />
+      <module name="myshop-dependencies" target="1.5" />
+      <module name="myshop-domain" target="1.8" />
+      <module name="myshop-web-admin" target="1.8" />
+      <module name="myshop-web-api" target="1.8" />
+      <module name="myshop-web-damin" target="1.8" />
+      <module name="myshop-web-ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

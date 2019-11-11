@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.gyf.itedu.model">
+	<class name="Reply" table="t_reply">
+
+		<id name="rid" column="id">
+			<generator class="native"></generator>
+		</id>
+
+
+		<!--private String replyContent;	//回复的内容-->
+		<property name="replyContent"></property>
+		<!--private String ipAddr;			//作者（回复人）-->
+		<property name="ipAddr"></property>
+		<!--private Date createDate;		//回帖时间-->
+		<property name="createDate"></property>
+
+		<!--private Topic topic; //多对一：多个回复  属于 【一个主题】-->
+		<many-to-one name="topic" class="Topic" column="topic_id"></many-to-one>
+	</class>
+</hibernate-mapping>

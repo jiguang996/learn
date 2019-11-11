@@ -1,0 +1,17 @@
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\abstracts\AbstractController.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\web\controller\ContentCategoryController.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\web\interceptor\PermissionInterceptor.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\web\controller\ContentController.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\dao\TbContentCategoryDao.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\web\controller\UserController.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\web\controller\MainController.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\dao\TbContentDao.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\dao\TbUserDao.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\service\impl\TbContentCategoryServiceImpl.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\web\interceptor\LoginInterceptor.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\service\impl\TbUserServiceImpl.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\web\controller\LoginController.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\service\TbContentCategoryService.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\service\TbUserService.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\service\TbContentService.java
+C:\Users\ji\ideaProject\myshop\my-shop-web-admin\src\main\java\com\jiguang\myshop\web\admin\service\impl\TbContentServiceImpl.java

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xmlns xml namespace:xml命名空间-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p ="http://www.springframework.org/schema/p"
+       xmlns:context ="http://www.springframework.org/schema/context"
+       xmlns:aop ="http://www.springframework.org/schema/aop"
+       xmlns:tx ="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <tx:annotation-driven transaction-manager="txManger"></tx:annotation-driven>
+
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="root"></property>
+        <property name="password" value="jg13037583631"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///spring_day02?serverTimezone=UTC"></property>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+    </bean>
+
+    <bean id="txManger" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+
+    <bean id="accountDao" class="com.gyf.dao.Impl.AccpuntDaoImpl">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <bean id="accountService" class="com.gyf.service.Impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+</beans>

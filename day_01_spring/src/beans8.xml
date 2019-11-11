@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xmlns xml namespace:xml命名空间-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p ="http://www.springframework.org/schema/p"
+       xmlns:context ="http://www.springframework.org/schema/context"
+       xmlns:aop ="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+<!-- bean definitions here -->
+
+
+    <bean id="userService" class="com.gyf.service.Impl.UserServiceImpl"></bean>
+
+    <bean id="myAspect" class="com.gyf.aspect.MyAspect01"></bean>
+
+    <aop:config>
+        <aop:aspect ref="myAspect">
+            <aop:pointcut id="myPointcut" expression="execution(* com.gyf.service.*.*(..))"/>
+            <aop:before method="myBefore" pointcut-ref="myPointcut"></aop:before>
+            <aop:after method="myAfter" pointcut-ref="myPointcut"></aop:after>
+            <aop:after-returning method="myAfterReturning" pointcut-ref="myPointcut" returning="o"></aop:after-returning>
+            <aop:around method="myAround" pointcut-ref="myPointcut"></aop:around>
+            <aop:after-throwing method="afterThrowing" pointcut-ref="myPointcut" throwing="e"></aop:after-throwing>
+        </aop:aspect>
+    </aop:config>
+
+
+
+</beans>

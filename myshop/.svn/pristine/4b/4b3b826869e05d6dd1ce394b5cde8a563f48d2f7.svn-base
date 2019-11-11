@@ -1,0 +1,10 @@
+com\jiguang\myshop\web\api\service\TbUserService.class
+com\jiguang\myshop\web\api\web\controller\v1\TbContentController.class
+com\jiguang\myshop\web\api\dao\TbUserDao.class
+com\jiguang\myshop\web\api\service\impl\TbUserServiceImpl.class
+com\jiguang\myshop\web\api\service\impl\TbContentServiceImpl.class
+com\jiguang\myshop\web\api\web\controller\v1\TbUserController.class
+com\jiguang\myshop\web\api\web\dto\TbUserDTO.class
+com\jiguang\myshop\web\api\service\TbContentService.class
+com\jiguang\myshop\web\api\web\dto\TbContentDTO.class
+com\jiguang\myshop\web\api\dao\TbContentDao.class
