@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+
+    <button v-on:click="sayHi();">submit</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script type="text/javascript">
+    var vm =new  Vue({
+        el: "#app",
+        data: {
+            message:"sss",
+            // items: [
+            //     {message: "鬼灭之刃"},
+            //     {message: "我们无法一起学习"},
+            //     {message: "一拳超人"}
+            // ]
+        },
+        methods:{
+            sayHi: function () {
+                alert(this.message);
+            }
+        }
+    });
+</script>
+</body>
+</html>

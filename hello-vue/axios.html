@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <div>姓名: {{info.name}}</div>
+    <div>地址：{{info.address.country}}-{{info.address.city}}-{{info.address.street}}</div>
+    <div v-bind:href="info.url" target="_blank">{{info.url}}</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: '#app',
+        data() {
+            return {
+                info: {
+                    name: null,
+                    address: {
+                        country: null,
+                        city: null,
+                        street: null
+                    },
+                    url: null
+                }
+            }
+        },
+        mounted() {
+            axios
+                .get('data.json')
+                .then(response => (this.info = response.data));
+        }
+    });
+</script>
+</body>
+</html>

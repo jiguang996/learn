@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="app">
+    <todo>
+        <todo-title slot="todo-title" v-bind:title="title"></todo-title>
+        <todo-items slot="todo-items" v-for="(item, index) in items" v-bind:item="item" v-bind:index="index" :key="index" v-on:remove="removeItems(index)"></todo-items>
+    </todo>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script type="text/javascript">
+    Vue.component("todo",{
+        template: '<div>\
+                        <slot name="todo-title"></slot>\
+                        <ul>\
+                            <slot name="todo-items"></slot>\
+                        </ul>\
+                   </div>'
+    });
+    Vue.component("todo-title",{
+        props:['title'],
+        template:'<div>{{title}}</div>'
+    })
+    Vue.component("todo-items",{
+        props:['item','index'],
+        template:'<li>{{index}}.{{item}}<button @click="remove(index)">删除</button></li>',
+        methods:{
+            remove: function (index) {
+                this.$emit('remove',index)
+            }
+        }
+            
+    })
+    var vm =new Vue({
+        el:"#app",
+        data:{
+            title:"cartoons",
+            items:[
+                "鬼灭之刃","少年歌行","一人之下","连续中出"
+            ],
+        },
+        methods: {
+            removeItems :function (index) {
+                this.items.splice(index,1)
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -6,7 +6,6 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
 @RestController
 @RefreshScope
 public class EchoController {
@@ -15,6 +14,13 @@ public class EchoController {
 
     @Value("${user.name}")
     private  String username;
+
+    @GetMapping("/user")
+    public  User user(){
+        User user= new User();
+        user.setUsername("sdaad");
+        return  user;
+    }
 
     @GetMapping(value = "/echo/{string}")
     public String echo(@PathVariable String string) {

@@ -1,0 +1,42 @@
+2019-11-15 15:40:06.010  INFO 13396 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-N60VA65 with PID 13396 (C:\Users\ji\ideaProject\demo-springboot\target\classes started by ji in C:\Users\ji\ideaProject\demo-springboot)
+2019-11-15 15:40:06.017  INFO 13396 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-11-15 15:40:07.139  WARN 13396 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-15 15:40:07.781  INFO 13396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-15 15:40:07.794  INFO 13396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-15 15:40:07.794  INFO 13396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-15 15:40:07.884  INFO 13396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/boot]   : Initializing Spring embedded WebApplicationContext
+2019-11-15 15:40:07.885 DEBUG 13396 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-15 15:40:07.886  INFO 13396 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1749 ms
+2019-11-15 15:40:08.616  INFO 13396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-15 15:40:08.628 DEBUG 13396 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-15 15:40:08.676 DEBUG 13396 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-11-15 15:40:08.682  INFO 13396 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-15 15:40:08.702 DEBUG 13396 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-15 15:40:08.711 DEBUG 13396 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-15 15:40:08.839  INFO 13396 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-11-15 15:40:08.840  INFO 13396 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-11-15 15:40:08.841  INFO 13396 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-11-15 15:40:08.841  INFO 13396 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2019-11-15 15:40:08.964  INFO 13396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/boot'
+2019-11-15 15:40:08.968  INFO 13396 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.846 seconds (JVM running for 5.372)
+2019-11-15 15:42:51.267  INFO 9796 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-N60VA65 with PID 9796 (C:\Users\ji\ideaProject\demo-springboot\target\classes started by ji in C:\Users\ji\ideaProject\demo-springboot)
+2019-11-15 15:42:51.273  INFO 9796 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-11-15 15:42:52.035  WARN 9796 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-15 15:42:52.480  INFO 9796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-15 15:42:52.490  INFO 9796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-15 15:42:52.490  INFO 9796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-15 15:42:52.560  INFO 9796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/boot]   : Initializing Spring embedded WebApplicationContext
+2019-11-15 15:42:52.561 DEBUG 9796 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-15 15:42:52.562  INFO 9796 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1175 ms
+2019-11-15 15:42:53.093  INFO 9796 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-15 15:42:53.108 DEBUG 9796 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-15 15:42:53.148 DEBUG 9796 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-11-15 15:42:53.152  INFO 9796 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-15 15:42:53.170 DEBUG 9796 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-15 15:42:53.178 DEBUG 9796 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-15 15:42:53.301  INFO 9796 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-11-15 15:42:53.303  INFO 9796 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-11-15 15:42:53.304  INFO 9796 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-11-15 15:42:53.305  INFO 9796 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2019-11-15 15:42:53.405  INFO 9796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/boot'
+2019-11-15 15:42:53.407  INFO 9796 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.802 seconds (JVM running for 3.789)
