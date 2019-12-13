@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="604fd2d2-9a29-47ab-a2e5-7b99d2f70082" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/ack/AckConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/ack/AckProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/ack/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/confirm/ConfirmConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/confirm/ConfirmProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/limit/LimitConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/limit/LimitProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/limit/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/message/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/message/MessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/myConsumer/MyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/myConsumer/ReturnConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/myConsumer/ReturnProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/DircectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/DirectProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/FanoutConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/FanoutProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/quickstart/TopicProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/returnlistener/ReturnConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/rabbitmq/demo/returnlistener/ReturnProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_rabbitmq/src/main/java/com/rabbitmq/spring/demo/config/MessageDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_rabbitmq/src/main/java/com/rabbitmq/spring/demo/config/RabbitMQConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="C:/Program Files/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\Program Files\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1UY6ovCFTZotxJbBkWPHrzk2N1U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_boot_rabbitmq" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JiguangApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbot_spring_boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring_boot_rabbitmq.jiguang.JiguangApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="604fd2d2-9a29-47ab-a2e5-7b99d2f70082" name="Default Changelist" comment="" />
+      <created>1575521359847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575521359847</updated>
+      <workItem from="1575521364935" duration="726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="174" key="FileChooserDialogImpl" timestamp="1575521490399">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="555" y="174" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1575521490399" />
+  </component>
+</project>
